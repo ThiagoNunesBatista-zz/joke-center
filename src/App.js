@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Routes from './routes'
 
-function App () {
+const App = () => {
   return (
     <Fragment>
       <Routes />
