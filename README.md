@@ -7,6 +7,7 @@ Built with ReactJS, this app uses public apis to get jokes And Make Your Day Hap
 ## You Will Need To Have Configured And Installed:
 - [GIT](https://git-scm.com/)
 - [NPM (It's Intalled With NodeJS)](https://nodejs.org/)
+- Editor Config Extension on Your Text Editor
 
 ## How To Install The Project
 ```
