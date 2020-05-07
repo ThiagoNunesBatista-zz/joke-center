@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 
 // Internal Components
-import ChuckNorrisImg from '../../assets/images/chuck-norris-icon.jpg'
+import ChuckNorrisImg from '../assets/images/chuck-norris-icon.jpg'
 
 const ChuckNorrisFacts = () => {
   const [joke, setJoke] = useState(null)

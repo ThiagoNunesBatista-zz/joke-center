@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import styled from 'styled-components'
 
 // Internal Components
-import Home from './components/Home/Home'
-import ChuckNorrisFacts from './components/ChuckNorrisFacts/ChuckNorrisFacts'
-import Navbar from './components/Navbar/Navbar'
+import Home from './components/Home'
+import ChuckNorrisFacts from './components/ChuckNorrisFacts'
+import Navbar from './components/Navbar'
 
 const routes = () => {
   return (
