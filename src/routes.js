@@ -4,9 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import styled from 'styled-components'
 
 // Internal Components
-import Home from './components/Home/Home'
-import ChuckNorrisFacts from './components/ChuckNorrisFacts/ChuckNorrisFacts'
-import Navbar from './components/Navbar/Navbar'
+import Home from './components/Home'
+import Navbar from './components/Navbar'
+import ChuckNorrisFacts from './components/ChuckNorrisFacts'
+import DadJokes from './components/DadJokes'
 
 const routes = () => {
   return (
@@ -16,6 +17,7 @@ const routes = () => {
         <Container>
           <Route path='/' exact component={Home} />
           <Route path='/chuck-norris' exact component={ChuckNorrisFacts} />
+          <Route path='/dad-jokes' exact component={DadJokes} />
         </Container>
       </Switch>
     </Router>
