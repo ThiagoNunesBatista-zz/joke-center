@@ -4,7 +4,7 @@ Built with ReactJS, this app uses public apis to get jokes And Make Your Day Hap
 
 ## Used Apis
 
-- [Chuck Norris Facts](https://api.chucknorris.io/)
+- [Chuck Norris Facts](https://api.chucknorris.io)
 - [Dad Jokes](https://icanhazdadjoke.com/api)
 
 ## Project Requirements
