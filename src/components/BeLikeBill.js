@@ -15,11 +15,11 @@ const BeLikeBill = () => {
   }
 
   return (
-    <div>
+    <Container>
       <Formik
         initialValues={{ name: '', gender: 'f' }}
         validationSchema={Yup.object({
-          name: Yup.string().required('Please Fill Out With Our Name')
+          name: Yup.string().required('Please Fill Out With Your Name')
         })}
 
         onSubmit={({ name, gender }, { setSubmitting }) => {
@@ -30,7 +30,7 @@ const BeLikeBill = () => {
         <FormContainer>
           <Form>
             <Field type='text' id='name' name='name' placeholder='What is Your Name?' />
-            <ErrorMessage name='name' />
+            <ErrorMessage name='name' render={msg => <ErrorParagraph>{msg}</ErrorParagraph>} />
 
             <Field as='select' name='gender' id='gender'>
               <option value='f'>Female</option>
@@ -41,27 +41,36 @@ const BeLikeBill = () => {
           </Form>
         </FormContainer>
       </Formik>
-
       <Image src={imageUrl} />
-    </div>
+    </Container>
   )
 }
 
+// Styled Components
 const Image = styled.img`
-  width: 500px;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  max-height: 420px;
 `
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #EBF4F0;
+  margin: 50px auto;
+  border-radius: 5px;
+  padding: 20px;
+  `
 
 const FormContainer = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  background: #EBF4F0;
-  margin: 50px auto;
-  max-width: 300px;
-  border-radius: 5px;
-  padding: 10px 20px;
-
+  align-content: center;
+  width: 100%;
+  /* overflow: hidden; */
 
   input, select, button {
     border: none;
@@ -69,7 +78,7 @@ const FormContainer = styled.div`
     border-radius: 5px;
     padding: 10px 15px;
     margin: 20px 0px;
-    width: 100%;
+    width: 300px;
     background: #FFF;
     border: 1px solid #ccc;
   }
@@ -82,6 +91,12 @@ const FormContainer = styled.div`
     cursor: pointer;
     background: #72837C;
   }
+`
+
+const ErrorParagraph = styled.p`
+  color: #FF0000;
+  font-weight: BeforeUnloadEvent;
+  margin: 10px auto;
 `
 
 export default BeLikeBill

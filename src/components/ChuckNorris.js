@@ -1,11 +1,11 @@
-// External Libraries / Components
+// External Components
 import React, { useState } from 'react'
 import styled from 'styled-components'
 
 // Internal Components
 import ChuckNorrisImg from '../assets/images/chuck-norris-icon.jpg'
 
-const ChuckNorrisFacts = () => {
+const ChuckNorris = () => {
   const [joke, setJoke] = useState(null)
 
   const getNewJoke = async () => {
@@ -15,17 +15,22 @@ const ChuckNorrisFacts = () => {
   }
 
   return (
-    <>
-      <ChuckImg src={ChuckNorrisImg} alt='Chuck Norris' />
+    <ChuckContainer>
+      <Image src={ChuckNorrisImg} alt='Chuck Norris' />
       <Button onClick={getNewJoke}>Get a Joke</Button>
       {joke && <JokeText>&quot;{joke}&quot;</JokeText>}
-    </>
+    </ChuckContainer>
   )
 }
 
 // Styled Components
+const ChuckContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
 
-const ChuckImg = styled.img`
+const Image = styled.img`
   width: 300px;
   display: block;
   margin: 10px auto 30px;
@@ -38,13 +43,15 @@ const JokeText = styled.p`
 `
 
 const Button = styled.button`
-  background: #000;
+  background: #72837C;
   padding: 10px 15px;
   color: #FFF;
   font-size: 20px;
   border: none;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 100%;
+  max-width: 300px;
 `
 
-export default ChuckNorrisFacts
+export default ChuckNorris

@@ -6,44 +6,45 @@ import styled from 'styled-components'
 const Home = () => {
   return (
     <>
-      <HomeWrapper>
+      <HomeContainer>
         <Title>Welcome to Joke Center</Title>
         <Subtitle>We Use Public APIs to Get Jokes And Make Your Day Happier</Subtitle>
-        <a href='https:/github.com/ThiagoNunesBatista/joke-center' target='_blank' rel='noopener noreferrer'>
-          <GitHubIcon style={{ fontSize: '40px' }} />
-        </a>
-      </HomeWrapper>
+        <IconLink href='https:/github.com/ThiagoNunesBatista/joke-center' target='_blank' rel='noopener noreferrer'>
+          <GitHubIcon style={{ fontSize: '40px', margin: '10px' }} />
+        </IconLink>
+      </HomeContainer>
     </>
   )
 }
 
 // Styled Components
-
-const HomeWrapper = styled.div`
-  top: 40%;
-  height: 500px;
-  width: 100%;
+const HomeContainer = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  margin: 0 auto;
+  align-items: center;
+  font-weight: bold;
+  margin: auto;
+  text-align: justify;
+  margin-top: 10px;
   `
 
 const Title = styled.h1`
   font-size: 30px;
+  margin: 10px;
   text-align: center;
-
-  font-weight: bold;
-  margin-bottom: 10px;
 `
 
 const Subtitle = styled.p`
   font-size: 20px;
-  text-align: justify;
+  margin: 10px;
+`
 
-  font-weight: bold;
-  margin-bottom: 10px;
+const IconLink = styled.a`
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.5)
+  }
 `
 
 export default Home

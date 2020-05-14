@@ -19,10 +19,11 @@ Built with ReactJS, this app uses public apis to get jokes And Make Your Day Hap
 
 ### Text Editor Extensions
 
-The project will run without this extensions, but it's highly recommendable the installation to keep the code style and formatting.
+The project will run without this extensions, but it's highly recommendable the installations to keep the code style and formatting.
 
 - [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-- [Standard](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [StandardJS](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
 
 ## How To Install The Project
 

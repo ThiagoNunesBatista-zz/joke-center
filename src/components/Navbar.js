@@ -1,11 +1,11 @@
-// External Libraries / Components
+// External Components
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <Nav>
+    <Nav id='navbar'>
       <h2><Link to='/'>Joke Center</Link></h2>
 
       <ul>
@@ -34,12 +34,19 @@ const Nav = styled.nav`
   }
 
   ul li {
-    margin-right: 10px;
+    margin: 10px;
+    border-right: 2px solid #72837C;
+    border-left: 2px solid #72837C;
+    padding: 2px;
   }
 
   ul li a:hover, h2 a:hover {
     background: #72837C;
     color: #FFF;
+  }
+
+  a {
+    color: #72837C;
   }
 `
 
