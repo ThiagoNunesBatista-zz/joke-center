@@ -5,14 +5,24 @@ Built with ReactJS, this app uses public apis to get jokes And Make Your Day Hap
 ## Used Apis
 
 - [Be Like Bill](https://github.com/gautamkrishnar/Be-Like-Bill)
+- [Cat Facts](https://catfact.ninja/)
 - [Chuck Norris Facts](https://api.chucknorris.io)
 - [Dad Jokes](https://icanhazdadjoke.com/api)
+- [Tronald Dump](https://tronalddump.io/)
 
 ## Project Requirements
 
+### Programs
+
 - [GIT](https://git-scm.com/)
 - [NPM (It's Intalled With NodeJS)](https://nodejs.org/)
-- Editor Config Extension on Your Text Editor
+
+### Text Editor Extensions
+
+The project will run without this extensions, but it's highly recommendable the installation to keep the code style and formatting.
+
+- [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [Standard](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
 
 ## How To Install The Project
 
