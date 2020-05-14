@@ -1,5 +1,5 @@
-/* Load External Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+/* External Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 /* Reset CSS */
 * {
@@ -10,7 +10,8 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  background: #BFDBCF;
 }
 
 body, html {

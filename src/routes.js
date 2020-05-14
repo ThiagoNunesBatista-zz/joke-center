@@ -6,6 +6,7 @@ import styled from 'styled-components'
 // Internal Components
 import Home from './components/Home'
 import Navbar from './components/Navbar'
+import BeLikeBill from './components/BeLikeBill'
 import ChuckNorrisFacts from './components/ChuckNorrisFacts'
 import DadJokes from './components/DadJokes'
 
@@ -16,6 +17,7 @@ const routes = () => {
       <Switch>
         <Container>
           <Route path='/' exact component={Home} />
+          <Route path='/be-like-bill' exact component={BeLikeBill} />
           <Route path='/chuck-norris' exact component={ChuckNorrisFacts} />
           <Route path='/dad-jokes' exact component={DadJokes} />
         </Container>

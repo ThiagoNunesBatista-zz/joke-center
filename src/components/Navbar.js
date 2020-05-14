@@ -9,6 +9,7 @@ const Navbar = () => {
       <h2><Link to='/'>Joke Center</Link></h2>
 
       <ul>
+        <li><Link to='/be-like-bill'>Be Like Bill</Link></li>
         <li><Link to='/chuck-norris'>Chuck Norris Facts</Link></li>
         <li><Link to='/dad-jokes'>Dad Jokes</Link></li>
       </ul>
@@ -17,13 +18,14 @@ const Navbar = () => {
 }
 
 const Nav = styled.nav`
-  width: 100vw;
+  width: 100%;
   height: 7vh;
   margin: 0 auto;
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 
   ul {
     display: flex;

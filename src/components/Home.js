@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <HomeWrapper>
         <Title>Welcome to Joke Center</Title>
-        <Subtitle>We Use Public APIs to Get Jokes And Give You Some Fun</Subtitle>
+        <Subtitle>We Use Public APIs to Get Jokes And Make Your Day Happier</Subtitle>
         <a href='https:/github.com/ThiagoNunesBatista/joke-center' target='_blank' rel='noopener noreferrer'>
           <GitHubIcon style={{ fontSize: '40px' }} />
         </a>
@@ -27,7 +27,8 @@ const HomeWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 0 auto;`
+  margin: 0 auto;
+  `
 
 const Title = styled.h1`
   font-size: 30px;
