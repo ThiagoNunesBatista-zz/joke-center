@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/joke-center/static/css/main.c791bc91.chunk.css",
+    "main.js": "/joke-center/static/js/main.13797f60.chunk.js",
+    "main.js.map": "/joke-center/static/js/main.13797f60.chunk.js.map",
+    "runtime-main.js": "/joke-center/static/js/runtime-main.bda70086.js",
+    "runtime-main.js.map": "/joke-center/static/js/runtime-main.bda70086.js.map",
+    "static/js/2.527f75a5.chunk.js": "/joke-center/static/js/2.527f75a5.chunk.js",
+    "static/js/2.527f75a5.chunk.js.map": "/joke-center/static/js/2.527f75a5.chunk.js.map",
+    "index.html": "/joke-center/index.html",
+    "precache-manifest.a995585ede00b2cf59af3c10edc54149.js": "/joke-center/precache-manifest.a995585ede00b2cf59af3c10edc54149.js",
+    "service-worker.js": "/joke-center/service-worker.js",
+    "static/css/main.c791bc91.chunk.css.map": "/joke-center/static/css/main.c791bc91.chunk.css.map",
+    "static/js/2.527f75a5.chunk.js.LICENSE.txt": "/joke-center/static/js/2.527f75a5.chunk.js.LICENSE.txt",
+    "static/media/chuck-norris-icon.jpg": "/joke-center/static/media/chuck-norris-icon.629c47ce.jpg",
+    "static/media/dad-joke.jpeg": "/joke-center/static/media/dad-joke.93215734.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bda70086.js",
+    "static/js/2.527f75a5.chunk.js",
+    "static/css/main.c791bc91.chunk.css",
+    "static/js/main.13797f60.chunk.js"
+  ]
+}
